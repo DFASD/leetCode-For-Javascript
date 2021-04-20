@@ -19,5 +19,6 @@ const twoSum = (nums, target) => {
         } else {
             map.set(nums[i], i);
         }
+        return [];
     }
 }
